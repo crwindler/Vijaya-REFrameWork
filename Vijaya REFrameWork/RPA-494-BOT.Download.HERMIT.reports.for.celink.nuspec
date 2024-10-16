@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>RPA-494-BOT.Download.HERMIT.reports.for.celink</id>
+    <version>1.0.4</version>
+    <title>RPA-494-BOT.Download.HERMIT.reports.for.celink</title>
+    <authors>vijaya.upadhyayula</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>download the Reports required for Celink</description>
+    <tags>VisualBasic VB UiPathStudioProcess</tags>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Celink.Applications.Logins" version="[1.0.7]" />
+        <dependency id="Hermit.Navigations" version="[1.0.7]" />
+        <dependency id="UiPath.Excel.Activities" version="[2.20.2]" />
+        <dependency id="UiPath.System.Activities" version="[23.4.4]" />
+        <dependency id="UiPath.UIAutomation.Activities" version="[23.4.8]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
